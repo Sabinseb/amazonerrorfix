@@ -1,23 +1,23 @@
 header {
-    background-color: maroon;
-    color: white;
+    background-color: #800000; /* darker shade of maroon */
+    color: #ffffff; /* keeping white text, but increasing contrast with a darker background */
     padding: 20px;
-    }
-    
-    section {
+}
+
+section {
     padding: 20px;
-    }
-    
-    #players {
-    background-color: lightblue;
-    }
-    
-    #coaches {
-    background-color: pink;
-    }
-    
-    footer {
-    background-color: maroon;
-    color: white;
+}
+
+#players {
+    background-color: #add8e6; /* a darker shade of light blue to improve readability */
+}
+
+#coaches {
+    background-color: #ffb6c1; /* a slightly darker shade of pink if needed */
+}
+
+footer {
+    background-color: #800000; /* same as header for consistency */
+    color: #ffffff;
     text-align: center;
-    }
+}
