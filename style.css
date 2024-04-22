@@ -1,7 +1,13 @@
-header {
-    background-color: #800000; /* darker shade of maroon */
-    color: #ffffff; /* keeping white text, but increasing contrast with a darker background */
+/* Updated CSS for simplicity and contrast using only white, black, and maroon */
+header, footer {
+    background-color: #800000; /* Maroon, dark enough for white text */
+    color: #ffffff; /* White text for maximum contrast */
     padding: 20px;
+}
+
+nav a {
+    color: #ffffff; /* White text to maintain visibility on maroon background */
+    text-decoration: none; /* Optional styling to remove underline */
 }
 
 section {
@@ -9,15 +15,15 @@ section {
 }
 
 #players {
-    background-color: #add8e6; /* a darker shade of light blue to improve readability */
+    background-color: #ffffff; /* White background for section */
+    color: #000000; /* Black text for maximum contrast */
 }
 
 #coaches {
-    background-color: #ffb6c1; /* a slightly darker shade of pink if needed */
+    background-color: #ffffff; /* White background for section */
+    color: #000000; /* Black text for maximum contrast */
 }
 
 footer {
-    background-color: #800000; /* same as header for consistency */
-    color: #ffffff;
     text-align: center;
 }
